@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://RosamondTao.github.io/"/>
-  <updated>2018-10-18T15:19:35.312Z</updated>
+  <updated>2018-10-18T15:24:05.430Z</updated>
   <id>https://RosamondTao.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://RosamondTao.github.io/2018/10/18/thinking/"/>
     <id>https://RosamondTao.github.io/2018/10/18/thinking/</id>
     <published>2018-10-18T15:17:01.000Z</published>
-    <updated>2018-10-18T15:19:35.312Z</updated>
+    <updated>2018-10-18T15:24:05.430Z</updated>
     
     <summary type="html">
     
@@ -30,7 +30,9 @@
       <category term="测试" scheme="https://RosamondTao.github.io/categories/%E6%B5%8B%E8%AF%95/"/>
     
     
-      <category term="-emmm -yoooo" scheme="https://RosamondTao.github.io/tags/emmm-yoooo/"/>
+      <category term="emmm" scheme="https://RosamondTao.github.io/tags/emmm/"/>
+    
+      <category term="yoooo" scheme="https://RosamondTao.github.io/tags/yoooo/"/>
     
   </entry>
   
