@@ -108,19 +108,20 @@
 
 
 
-  <meta name="description" content="参考网址  http://zhhz.suda.edu.cn/aa/a9/c3892a43689/page.htm https://blog.csdn.net/u011239443/article/details/60604017   倒排索引是现代信息检索系统的核心部分。 Web信息检索不是简单地在一个文档中查找指定的词，而是需要利用指定的词找出所有包含该词语的文档。 文档信息索引1.在一个文档中">
+  <meta name="description" content="倒排索引是现代信息检索系统的核心部分。 Web信息检索不是简单地在一个文档中查找指定的词，而是需要利用指定的词找出所有包含该词语的文档。">
+<meta name="keywords" content="数据结构&amp;算法,project(master)">
 <meta property="og:type" content="article">
 <meta property="og:title" content="倒排索引">
 <meta property="og:url" content="https://RosamondTao.github.io/2018/11/18/倒排索引/index.html">
 <meta property="og:site_name" content="TDrunk">
-<meta property="og:description" content="参考网址  http://zhhz.suda.edu.cn/aa/a9/c3892a43689/page.htm https://blog.csdn.net/u011239443/article/details/60604017   倒排索引是现代信息检索系统的核心部分。 Web信息检索不是简单地在一个文档中查找指定的词，而是需要利用指定的词找出所有包含该词语的文档。 文档信息索引1.在一个文档中">
+<meta property="og:description" content="倒排索引是现代信息检索系统的核心部分。 Web信息检索不是简单地在一个文档中查找指定的词，而是需要利用指定的词找出所有包含该词语的文档。">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://phelmha9v.bkt.clouddn.com/hash_InvertedIndex.png">
 <meta property="og:image" content="http://phelmha9v.bkt.clouddn.com/AVL_InvertedIndex.png">
-<meta property="og:updated_time" content="2018-11-18T06:02:11.510Z">
+<meta property="og:updated_time" content="2018-11-18T06:19:35.681Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="倒排索引">
-<meta name="twitter:description" content="参考网址  http://zhhz.suda.edu.cn/aa/a9/c3892a43689/page.htm https://blog.csdn.net/u011239443/article/details/60604017   倒排索引是现代信息检索系统的核心部分。 Web信息检索不是简单地在一个文档中查找指定的词，而是需要利用指定的词找出所有包含该词语的文档。 文档信息索引1.在一个文档中">
+<meta name="twitter:description" content="倒排索引是现代信息检索系统的核心部分。 Web信息检索不是简单地在一个文档中查找指定的词，而是需要利用指定的词找出所有包含该词语的文档。">
 <meta name="twitter:image" content="http://phelmha9v.bkt.clouddn.com/hash_InvertedIndex.png">
 
 
@@ -349,7 +350,7 @@
                 
               
 
-              <time title="创建时间：2018-11-18 14:00:40 / 修改时间：14:02:11" itemprop="dateCreated datePublished" datetime="2018-11-18T14:00:40+08:00">2018-11-18</time>
+              <time title="创建时间：2018-11-18 14:00:40 / 修改时间：14:19:35" itemprop="dateCreated datePublished" datetime="2018-11-18T14:00:40+08:00">2018-11-18</time>
             
 
             
@@ -359,6 +360,24 @@
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/学习笔记/" itemprop="url" rel="index"><span itemprop="name">学习笔记</span></a></span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -387,14 +406,9 @@
       
 
       
-        <h3 id="参考网址"><a href="#参考网址" class="headerlink" title="参考网址"></a>参考网址</h3><blockquote>
-<ul>
-<li><a href="http://zhhz.suda.edu.cn/aa/a9/c3892a43689/page.htm" target="_blank" rel="noopener">http://zhhz.suda.edu.cn/aa/a9/c3892a43689/page.htm</a></li>
-<li><a href="https://blog.csdn.net/u011239443/article/details/60604017" target="_blank" rel="noopener">https://blog.csdn.net/u011239443/article/details/60604017</a></li>
-</ul>
-</blockquote>
-<p>倒排索引是现代信息检索系统的核心部分。</p>
+        <p>倒排索引是现代信息检索系统的核心部分。</p>
 <p>Web信息检索不是简单地<strong>在一个文档中查找指定的词</strong>，而是需要<strong>利用指定的词找出所有包含该词语的文档</strong>。</p>
+<a id="more"></a>
 <h2 id="文档信息索引"><a href="#文档信息索引" class="headerlink" title="文档信息索引"></a>文档信息索引</h2><h3 id="1-在一个文档中找指定的词"><a href="#1-在一个文档中找指定的词" class="headerlink" title="1.在一个文档中找指定的词"></a>1.在一个文档中找指定的词</h3><p>可以看成是一个子串匹配问题。由Knuth，Morris，Pratt共同提出的KMP算法，是一个非常优秀的子串匹配算法，它对于各种情况，都可以在线性时间内完成匹配查找。<br>但是如果对海量文档中每一个文档运行一次KMP匹配算法，将是一个不可接受的时间开销。</p>
 <h3 id="2-利用指定的词找出所有包含该词语的文档"><a href="#2-利用指定的词找出所有包含该词语的文档" class="headerlink" title="2.利用指定的词找出所有包含该词语的文档"></a>2.利用指定的词找出所有包含该词语的文档</h3><p>采用倒排索引。原理：在检索之前，首先用一个数据结构存储了包含每个检索词的对应文档集合，那么检索效率将会急剧提高。<br>倒排索引主要由词典和倒排链两个部分组成。词典记录了需要被检索的所有词条项和对应倒排链指针。对于一个查询词条项，查找其是否出现在词典中，如果找到就可以直接获取到倒排链指针，也就是就直接快速获取到了文档集合。为了满足快速索引构建和词项查找需求，词典本身通常是<strong>利用Hash表</strong>或者<strong>二叉搜索树</strong>实现；出现在词典中的每个词项都对应一个倒排链，最简单的倒排链存储了包含该此项的所有文档ID列表。</p>
 <p>哈希表方法图示（详见参考网址）：</p>
@@ -404,7 +418,14 @@
 <blockquote>
 <p>整条曲线-&gt;文档<br>需匹配曲线片段-&gt;要找的指定的词</p>
 </blockquote>
-<p>问题：<br>实际中在曲线上的匹配大多为模糊匹配，需要考虑曲线平移旋转等各种问题。这种利用倒排索引来大规模匹配的方法只用于精确匹配，实际意义不大。至少在没有改进前直接利用上述方法并不合理。</p>
+<p>问题：<br>实际中在曲线上的匹配大多为模糊匹配，需要考虑曲线平移旋转等各种问题。这种利用倒排索引来大规模匹配的方法在曲线旋转角度过大或上下平移过严重的情况下并不适用，文献[1]中的方法复现后对于这种情况效果并不理想，在其基础上考虑改进。<br>未完待续。</p>
+<h3 id="参考网址"><a href="#参考网址" class="headerlink" title="参考网址"></a>参考网址</h3><blockquote>
+<ul>
+<li><a href="http://zhhz.suda.edu.cn/aa/a9/c3892a43689/page.htm" target="_blank" rel="noopener">http://zhhz.suda.edu.cn/aa/a9/c3892a43689/page.htm</a></li>
+<li><a href="https://blog.csdn.net/u011239443/article/details/60604017" target="_blank" rel="noopener">https://blog.csdn.net/u011239443/article/details/60604017</a></li>
+<li><a href="http://xueshu.baidu.com/usercenter/paper/show?paperid=cb65783b444c2229583f048854c5c54e&amp;site=xueshu_se&amp;hitarticle=1" target="_blank" rel="noopener">http://xueshu.baidu.com/usercenter/paper/show?paperid=cb65783b444c2229583f048854c5c54e&amp;site=xueshu_se&amp;hitarticle=1</a></li>
+</ul>
+</blockquote>
 
       
     </div>
@@ -422,6 +443,14 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/数据结构-算法/" rel="tag"># 数据结构&算法</a>
+          
+            <a href="/tags/project-master/" rel="tag"># project(master)</a>
+          
+        </div>
       
 
       
@@ -525,7 +554,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -542,7 +573,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -599,7 +634,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#参考网址"><span class="nav-number">1.</span> <span class="nav-text">参考网址</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文档信息索引"><span class="nav-number"></span> <span class="nav-text">文档信息索引</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-在一个文档中找指定的词"><span class="nav-number">1.</span> <span class="nav-text">1.在一个文档中找指定的词</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-利用指定的词找出所有包含该词语的文档"><span class="nav-number">2.</span> <span class="nav-text">2.利用指定的词找出所有包含该词语的文档</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#思考"><span class="nav-number"></span> <span class="nav-text">思考</span></a></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#文档信息索引"><span class="nav-number">1.</span> <span class="nav-text">文档信息索引</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-在一个文档中找指定的词"><span class="nav-number">1.1.</span> <span class="nav-text">1.在一个文档中找指定的词</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-利用指定的词找出所有包含该词语的文档"><span class="nav-number">1.2.</span> <span class="nav-text">2.利用指定的词找出所有包含该词语的文档</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#思考"><span class="nav-number">2.</span> <span class="nav-text">思考</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#参考网址"><span class="nav-number">2.1.</span> <span class="nav-text">参考网址</span></a></li></ol></li></ol></div>
             
 
           </div>
